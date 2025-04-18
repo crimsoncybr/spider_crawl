@@ -101,7 +101,7 @@ DISPLAY_STATUS_BOX() {
     local border_line=$(printf '%*s' "$width" "" | tr ' ' '*')
 
     clear
-    echo -e "\n${BLUE}${BOLD}WEB CRAWLER${NC}${BOLD} - Advanced Web Intelligence System [${timestamp}]${NC}\n"
+    echo -e "\n${BLUE}${BOLD}SPIDER CRAWL WEB CRAWLER${NC}${BOLD} - Advanced Web Intelligence System [${timestamp}]${NC}\n"
     echo "$border_line"
     echo -e "*${CYAN}${BOLD}                              CRAWLER STATISTICS                              ${NC}*"
     echo "$border_line"
